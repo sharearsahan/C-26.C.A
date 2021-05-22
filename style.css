@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+h6 {
+    font-size: 10px;
+    font-weight: 100;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #7f8c8d;
+}
+
+
+
+.navbar-brand {
+    color: blue !important;
+    font-size: 30px;
+
+}
+
+.header .navbar {
+    border-top: 5px solid rgb(69, 118, 209);
+
+}
+
+.navbar {
+    width: 100%;
+    padding: 0 90px;
+}
+
+.extra-div h2 {
+    font-size: 0.9rem;
+    margin: 20px 0 15px 0;
+    font-weight: bold;
+    line-height: 1.1;
+    word-spacing: 4px;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://cdn.pixabay.com/photo/2020/08/08/06/36/office-business-meeting-5472251__480.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+
+}
+
+.header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .4;
+    z-index: -1;
+
+}
+
+.header-section {
+    width: 100%;
+    height: inherit;
+    color: white;
+    text-align: center;
+    position: relative;
+
+}
+
+.center-div {
+    width: 100%;
+    height: auot;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+
+}
+
+.center-div h1 {
+    font-weight: bold;
+}
+
+.header-buttons a {
+    border: 1px solid #fff;
+    border-radius: 100px;
+    margin: 0 5px;
+    padding: 12px 35px;
+    outline: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+    transition: .5s;
+}
+
+summary {
+    margin-top: 60px;
+}
+
+.header-buttons a:hover {
+    color: #50d1c0;
+    background: #fff;
+    text-decoration: none;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.center-div p {
+    font-size: 1.3rem;
+    padding: 10px 0 20px 0;
+    color: #fff;
+}
+
+.contact {
+    background: #f7f7f7;
+}
+
+footer {
+    background: #000;
+    text-align: center;
+}
+
+.footer-last {
+    padding: 25px 0;
+    color: #fff;
+}
